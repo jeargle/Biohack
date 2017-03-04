@@ -1,0 +1,300 @@
+Biohack.org
+
+
+Overall Organization
+
+ - Sections
+   - Notes
+   - Code
+     - Tutorials
+     - Reviews
+   - Essays
+ - Technology
+   - python, tornado; (Django, django-cms?)
+   - HTML5, CSS3
+   - JavaScript, jQuery, d3, Ace
+
+
+*********
+* Notes *
+*********
+
+Note Organization
+ - reader can get to important information fast
+ - visible outline - sometimes leading to subpages
+ - call out all important results and equations
+ - motivating text for beginners (maybe split into bio vs. CS background)
+ - legend of all symbols
+ - glossary
+ - references
+
+Biophysics
+ - statistical mechanics
+   - diffusion; Brownian motion
+   - entropy
+ - protein structure; primary, secondary, tertiary, quartenary
+ - protein structure prediction
+ - protein folding
+ - experimental methods
+   - X-ray crystallography, NMR, mass-spec, spectroscopy, FRET, AFM, optical tweezers
+ - computational methods
+   - MD, Monte Carlo, FBA, Gillespie
+ - molecular dynamics
+
+Biochemistry
+ * macromolecules
+   * nucleic acids
+     - DNA replication; proofreading
+     - transcription
+     - DNA repair
+   * proteins
+     - translation; proofreading
+   * lipids
+   * carbohydrates
+ - classes of enzymatic reactions (Enzyme Commission)
+ - pathways; glycolysis, TCA, fatty acid synthesis, etc.
+   - comparison between different organisms
+   - systems biology
+     - flux-balance analysis
+     - Gillespie algorithm
+ - exotic biochemistry
+   - photosynthesis
+   - methanogenesis
+   - annamox bacteria
+   - reverse TCA cycle
+   - electron transport chain on metal outside organism
+   - H2S as electron acceptor in respiration
+
+NGS
+ - sequencing technologies
+   - Sanger
+   - Illumina
+   - Ion Torrent
+   - PacBio
+   - nanopore
+ - short read files; fastq
+ - genome assembly
+ - alignment (resequencing)
+   - aligned sequence files; sam, bam, fasta
+ - RNA-Seq
+ - genome annotation
+
+Evolution
+ - sources of mutation (SNP, insertion, deletion, etc.)
+ - natural selection
+ - DNA/RNA sequences (review)
+ - protein sequences (review)
+ - sequence search
+ - mutation models (PAM, Blosum, DNA transition-transversion, etc.)
+ - multiple sequence alignment
+   - dynamic programming; Smith-Waterman, Needleman-Wunsch
+ - multiple structure alignment
+ - conservation
+ - phylogenetic trees
+   - UPGMA
+   - maximum parsimony
+   - maximum likelihood
+
+Computer Science
+ - practical programming
+   - building programs
+   - package management systems; yum, apt-get, macports, homebrew
+   - source control; git, svn, github
+   - code editors; emacs, vi
+   - documentation generation
+   - profiling
+ - data types & data structures
+   - array
+   - list
+   - stack
+   - queue
+   - dictionary (hash table)
+   - tree
+   - graph
+ - computability theory
+   - finite state automata; regular grammar; regexp
+   - pushdown automata; context-free grammar; RNA structure; covariance model
+   - turing machine; turing complete grammar
+ - numerical methods
+   - root finding
+   - interpolation
+   - regression
+   - differentiation
+   - integration
+   - solving systems of linear equations
+ - algorithms
+   - search
+   - sort
+   - graph traversal
+     - depth-first search
+     - bread-first search
+     - sortest path (Djikstra, Floyd-Warshall)
+   - DFT, FFT
+
+
+********
+* Code *
+********
+
+Code Tutorial Organization
+ - fast setup; download, install, run
+ - example input and output files (maybe have interesting background system)
+ - list of most useful commands
+ - link to code review
+
+Code Review Organization
+ - base info: download link, authors, version (date of last update),
+   programming language, short description, dependencies
+ - build process, including warnings
+ - overall architecture
+ - step through with debugger (if useful)
+
+Sequence Search
+ - BLAST
+ - blat
+
+Sequence Alignment
+ - ClustalW
+ - T-Coffee
+ - MAFFT
+ - muscle
+
+Structure Alignment
+ - STAMP
+
+Multiple Sequence/Structure Alignment Viewer/Editor
+ - jalview
+ - MultiSeq
+
+Phylogenetic Tree Building
+ - phyML
+ - raxML
+ - MrBayes
+ - phylip
+ - paup*
+
+Protein Structure Prediction
+ - secondary structure
+   - jpred
+   - psipred
+ - tertiary structure
+   - rosetta
+   - modeller
+   - I-TASSER
+
+Molecule Viewer
+ - VMD
+ - PyMOL
+ - Chimera
+
+Molecular Dynamics
+ - NAMD
+ - VMD
+
+Systems Biology
+ - cytoscape
+ - bioconductor
+
+NGS
+ - sratoolkit
+ - BWA
+ - bowtie
+ - FastQC
+ - samtools
+ - smalt
+ - velvet
+ - bfast
+ - cufflinks
+ - tophat
+ - fastx
+ - picard
+ - ssaha2
+ - circos
+
+Programming
+ - Make files
+ - autotools
+ - programming languages; download, setup, use, doc generation, debugging
+   - python
+   - R
+   - C/C++
+   - perl
+   - java
+ - ssh
+ - AWS
+ - latex
+
+
+**********
+* Essays *
+**********
+
+Essay Organization
+
+Evolution/Systematics
+ * phylogenetic tree is used to generalize in biology
+ - three domains of life
+ - universal genes
+ - bias towards multicellular Eukaryotes
+   classes focused heavily on humans; anatomy, physiology, immunology, neuroscience
+   model organisms chosen for relation to humans
+   medicine
+   agriculture
+ - concept of 'species'
+ - non-monophyletic group names; prokaryote, protist, algae
+ - origin of life
+   - LUCAS
+ - mutation vs. natural selection; information construction vs. destruction
+ - tetrodotoxin in animals is from bacteria
+ - methane is from Archaea and possibly some oceanic Bacteria
+
+Biophysics
+ - quantitative biology
+ - entropy
+ - bacteriorhodopsin
+ - collagen
+
+Computer Science
+ - programming languages used; python, R, perl, C/C++
+ - exotic data structures in bioinformatics
+ - interesting algorithms in bioinformatics
+
+Personal
+ - background
+ - papers
+ - work at Lab7
+ - systematics in everyday life
+
+Storytime
+ - vitamin C and scurvy
+ - bacteriorhodopsin
+ - origin of life - William Martin & Mike Russell
+
+
+
+Biohack Plans:
+	+michaelis menton, K
+	+titration, pH
+	+Legendre equation, Brownian motion
+	+Coulomb's equation
+	+Beer's Law
+	FRET
+	Franck-Condon
+	amino acids, nucleic acids
+	lipids, sterols
+	Kirchoff's Laws
+	diff eq
+		elliptic
+		hyperbolic
+		heat?
+	MD/ME methods
+	Poisson-Boltzmann equation
+	+Stokes' Law
+	Navier Stokes equation for turbulence
+	experimental methods:
+		X-ray crystallography
+		NMR - 1D, 2D, 3D, NOE
+		Fourier transform infrared (FTIR) spectroscopy
+		Circular dichroism (CD)
+
+(+: in SuperMemo)
