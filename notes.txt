@@ -155,7 +155,7 @@ Sequence Search
 
 Sequence Alignment
  - ClustalW
- - T-Coffee
+ * T-Coffee
  - MAFFT
  - muscle
 
@@ -232,8 +232,8 @@ Programming
 Essay Organization
 
 Evolution/Systematics
- * phylogenetic tree is used to generalize in biology
- - three domains of life
+ - phylogenetic tree is used to generalize in biology
+ * three domains of life
  - universal genes
  - bias towards multicellular Eukaryotes
    classes focused heavily on humans; anatomy, physiology, immunology, neuroscience
@@ -262,13 +262,14 @@ Computer Science
 Personal
  - background
  - papers
- - work at Lab7
+ - work at L7
  - systematics in everyday life
 
 Storytime
- - vitamin C and scurvy
+ * vitamin C and scurvy
  - bacteriorhodopsin
  - origin of life - William Martin & Mike Russell
+ - wet vs. dry nanotech
 
 
 
