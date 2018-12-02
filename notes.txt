@@ -10,7 +10,7 @@ Overall Organization
      - Reviews
    - Essays
  - Technology
-   - python, tornado; (Django, django-cms?)
+   - python, tornado
    - HTML5, CSS3
    - JavaScript, jQuery, d3, Ace
 
@@ -19,7 +19,7 @@ Overall Organization
 * Notes *
 *********
 
-Note Organization
+*** Note Organization ***
  - reader can get to important information fast
  - visible outline - sometimes leading to subpages
  - call out all important results and equations
@@ -136,13 +136,13 @@ Computer Science
 * Code *
 ********
 
-Code Tutorial Organization
+*** Code Tutorial Organization ***
  - fast setup; download, install, run
  - example input and output files (maybe have interesting background system)
  - list of most useful commands
  - link to code review
 
-Code Review Organization
+*** Code Review Organization ***
  - base info: download link, authors, version (date of last update),
    programming language, short description, dependencies
  - build process, including warnings
@@ -229,7 +229,7 @@ Programming
 * Essays *
 **********
 
-Essay Organization
+*** Essay Organization ***
 
 Evolution/Systematics
  - phylogenetic tree is used to generalize in biology
