@@ -49,7 +49,7 @@ if __name__=='__main__':
     logging.getLogger().setLevel(logging.DEBUG)
 
     app = web.Application(urls, template_path = pkg_path, debug = True)
-    # app.listen(80)
-    app.listen(8005)
+    app.listen(80)
+    # app.listen(8005)
 
     ioloop.IOLoop.instance().start()
