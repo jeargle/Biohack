@@ -35,6 +35,7 @@ Biophysics
  - protein structure; primary, secondary, tertiary, quartenary
  - protein structure prediction
  - protein folding
+ - RNA structure
  - experimental methods
    - X-ray crystallography, NMR, mass-spec, spectroscopy, FRET, AFM, optical tweezers
  - computational methods
@@ -181,6 +182,11 @@ Protein Structure Prediction
    - rosetta
    - modeller
    - I-TASSER
+
+RNA Structure Prediction
+ - secondary structure
+   - MFold
+   - Vienna package
 
 Molecule Viewer
  - VMD
