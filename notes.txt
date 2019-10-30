@@ -9,10 +9,6 @@ Overall Organization
      - Tutorials
      - Reviews
    - Essays
- - Technology
-   - python, tornado
-   - HTML5, CSS3
-   - JavaScript, jQuery, d3, Ace
 
 
 *********
@@ -37,12 +33,23 @@ Biophysics
  - protein folding
  - RNA structure
  - experimental methods
-   - X-ray crystallography, NMR, mass-spec, spectroscopy, FRET, AFM, optical tweezers
+   - AFM
+   - Circular dichroism (CD)
+   - cryo EM
+   - Fourier transform infrared (FTIR) spectroscopy
+   - FRET
+   - mass-spec
+   - NMR: 1D, 2D, 3D, NOE
+   - optical tweezers
+   - X-ray crystallography
  - computational methods
-   - MD, Monte Carlo, FBA, Gillespie
- - molecular dynamics
+   - MD
+   - Monte Carlo
+   - FBA
 
 Biochemistry
+ - michaelis menton, K
+ - titration, pH
  * macromolecules
    * nucleic acids
      - DNA replication; proofreading
@@ -52,6 +59,10 @@ Biochemistry
      - translation; proofreading
    * lipids
    * carbohydrates
+ - micromolecules
+   - sterols
+   - vitamins
+   - ions
  - classes of enzymatic reactions (Enzyme Commission)
  - pathways; glycolysis, TCA, fatty acid synthesis, etc.
    - comparison between different organisms
@@ -138,7 +149,7 @@ Computer Science
 ********
 
 *** Code Tutorial Organization ***
- - fast setup; download, install, run
+ - fast setup: download, install, run
  - example input and output files (maybe have interesting background system)
  - list of most useful commands
  - link to code review
@@ -149,18 +160,19 @@ Computer Science
  - build process, including warnings
  - overall architecture
  - step through with debugger (if useful)
+ - link to code tutorial
 
 Sequence Search
  - BLAST
  - blat
 
-Sequence Alignment
+Multiple Sequence Alignment
  - ClustalW
- * T-Coffee
- - MAFFT
+ * MAFFT
  - muscle
+ * T-Coffee
 
-Structure Alignment
+Multiple Structure Alignment
  - STAMP
 
 Multiple Sequence/Structure Alignment Viewer/Editor
@@ -168,20 +180,20 @@ Multiple Sequence/Structure Alignment Viewer/Editor
  - MultiSeq
 
 Phylogenetic Tree Building
+ - MrBayes
+ - paup*
+ - phylip
  - phyML
  - raxML
- - MrBayes
- - phylip
- - paup*
 
 Protein Structure Prediction
  - secondary structure
    - jpred
    - psipred
  - tertiary structure
-   - rosetta
-   - modeller
    - I-TASSER
+   - modeller
+   - rosetta
 
 RNA Structure Prediction
  - secondary structure
@@ -189,33 +201,33 @@ RNA Structure Prediction
    - Vienna package
 
 Molecule Viewer
- - VMD
- - PyMOL
  - Chimera
+ - PyMOL
+ - VMD
 
 Molecular Dynamics
  - NAMD
  - VMD
 
 Systems Biology
- - cytoscape
  - bioconductor
+ - cytoscape
 
 NGS
- - sratoolkit
- - BWA
- - bowtie
- - FastQC
- - samtools
- - smalt
- - velvet
  - bfast
+ - bowtie
+ - BWA
+ - circos
  - cufflinks
- - tophat
+ - FastQC
  - fastx
  - picard
+ - samtools
+ - smalt
+ - sratoolkit
  - ssaha2
- - circos
+ - tophat
+ - velvet
 
 Programming
  - Make files
@@ -236,6 +248,9 @@ Programming
 **********
 
 *** Essay Organization ***
+ - title
+ - text
+ - bibliography
 
 Evolution/Systematics
  - phylogenetic tree is used to generalize in biology
@@ -280,28 +295,17 @@ Storytime
 
 
 Biohack Plans:
-	+michaelis menton, K
-	+titration, pH
-	+Legendre equation, Brownian motion
-	+Coulomb's equation
-	+Beer's Law
-	FRET
-	Franck-Condon
-	amino acids, nucleic acids
-	lipids, sterols
-	Kirchoff's Laws
-	diff eq
-		elliptic
-		hyperbolic
-		heat?
-	MD/ME methods
-	Poisson-Boltzmann equation
-	+Stokes' Law
-	Navier Stokes equation for turbulence
-	experimental methods:
-		X-ray crystallography
-		NMR - 1D, 2D, 3D, NOE
-		Fourier transform infrared (FTIR) spectroscopy
-		Circular dichroism (CD)
+  +Legendre equation, Brownian motion
+  +Coulomb's equation
+  +Beer's Law
+  Franck-Condon
+  Kirchoff's Laws
+  diff eq
+    elliptic
+    hyperbolic
+    heat?
+  Poisson-Boltzmann equation
+  +Stokes' Law
+  Navier Stokes equation for turbulence
 
 (+: in SuperMemo)
